@@ -36,7 +36,7 @@ public class MainApp {
         userService.add(user4);
 
         System.out.println("---------------------");
-        userService.getUser(car1);
+        userService.getUser(car3);
         System.out.println("-----------------------");
 
         List<User> users = userService.listUsers();
@@ -49,7 +49,6 @@ public class MainApp {
             System.out.println("Series = " + user.getCar().getSeries());
             System.out.println();
         }
-
         context.close();
     }
 }
